@@ -1,0 +1,40 @@
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid var(--corBorda) ;
+    border-radius: 10px;
+}
+
+.itemName b, .itemLanguage b{
+    margin-right: 8px;
+}
+
+.itemLink{
+    display: block;
+    background-color:var(--corPrincipal);
+    color: var(--corSecundaria);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px; 
+    margin-bottom: 8px;
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.itemOwner{
+   text-align: center;
+   margin-top: 8px;
+}
+
+:root {
+    --corPrincipal: #f9ca24;
+    --corSecundaria: #111;
+    --corBorda: rgba(0,0,0,0.1);
+}
+
