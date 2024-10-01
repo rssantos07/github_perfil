@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-   
+   <p>Insira o Perfil Git hub a ser consultado</p>
     <input type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
       {nomeUsuario.length > 4 && (
         <>
